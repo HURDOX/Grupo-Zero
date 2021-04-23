@@ -1,0 +1,52 @@
+body{
+    background-image: url(../proyecto/img/jesus.jpeg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-size: monospace;
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    background: rgba(177, 174, 190, 0.589);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, text{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 10px;
+}
+
+#boton{
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    form{
+        width: 100%;
+    }
+    
+}
+
